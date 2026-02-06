@@ -60,7 +60,7 @@ nav ul li a:focus{
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
-    transition: tranform .4s;
+    transition: transform .4s;
 }
 .btn:hover{
     transform: scale(1.2);
