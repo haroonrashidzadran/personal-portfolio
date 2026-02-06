@@ -28,6 +28,10 @@ nav{
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.logo:hover{
+    transform: scale(1.05);
 }
 span{
     color: #d9004d;
