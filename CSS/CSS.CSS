@@ -41,7 +41,7 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    text-transform: capitalizeS;
+    text-transform: capitalize;
 }
 nav ul li a:hover{
     color: #d9004d;
