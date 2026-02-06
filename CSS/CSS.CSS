@@ -7,6 +7,11 @@ html{
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+/* Fix for Font Awesome icons */
+.fa, .fas, .far, .fal, .fab {
+    font-family: 'Font Awesome 6 Free', 'Font Awesome 6 Brands' !important;
+}
 .hero{
     height: 100vh;
     width: 100%;
