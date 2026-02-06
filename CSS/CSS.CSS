@@ -48,6 +48,11 @@ nav ul li a:hover{
     color: #d9004d;
     transition: .4s;
 }
+nav ul li a:focus{
+    color: #d9004d;
+    outline: 2px solid #d9004d;
+    outline-offset: 4px;
+}
 .btn{
     background-color: #d9004d;
     color: white;
