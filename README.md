@@ -5,10 +5,13 @@ A modern, responsive personal portfolio website showcasing full-stack web develo
 ## 🚀 Features
 
 - **Responsive Design** - Works seamlessly across all devices
-- **Modern UI/UX** - Clean and professional interface
-- **Interactive Elements** - Smooth animations and user interactions
+- **Modern UI/UX** - Clean and professional interface with smooth animations
+- **Interactive Elements** - Hover effects and smooth scrolling
 - **Service Showcase** - Highlighting web development expertise
 - **Contact Integration** - Easy way for clients to get in touch
+- **SEO Optimized** - Meta tags and semantic HTML for better search visibility
+- **Accessibility** - ARIA labels and keyboard navigation support
+- **Performance** - Lazy loading images and optimized CSS
 
 ## 🛠️ Technologies Used
 
