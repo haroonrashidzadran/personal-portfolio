@@ -164,6 +164,7 @@ button{
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 30px;
+    border: 2px solid transparent;
     transition: .4s;
 }
 button:hover{
