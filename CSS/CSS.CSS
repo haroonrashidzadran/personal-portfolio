@@ -205,6 +205,11 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(217, 0, 77, 0.3);
 }
 .card i{
     font-size: 50px;
