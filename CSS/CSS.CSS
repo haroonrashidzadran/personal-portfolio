@@ -266,6 +266,7 @@ button:hover{
     padding: 9px 22px;
     border-radius: 30px;
     transition: .4s;
+    box-shadow: 0 4px 15px rgba(217, 0, 77, 0.3);
 }
 .card .button:hover{
     background: transparent;
