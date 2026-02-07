@@ -259,6 +259,7 @@ button:hover{
     line-height: 27px;
     margin-bottom: 25px;
     flex-grow: 1;
+    overflow-wrap: break-word;
 }
 .card .button{
     background-color: #d9004d;
