@@ -74,6 +74,7 @@ nav ul li a:focus{
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
+    user-select: none;
 }
 .btn:hover{
     transform: scale(1.2);
