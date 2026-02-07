@@ -212,6 +212,8 @@ button:hover{
     justify-content: center;
     text-align: center;
     min-height: 400px;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 .card{
     height: 400px;
