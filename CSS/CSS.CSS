@@ -1,6 +1,14 @@
 html{
     scroll-behavior: smooth;
 }
+::selection {
+    background: #d9004d;
+    color: white;
+}
+::-moz-selection {
+    background: #d9004d;
+    color: white;
+}
 section, div[id] {
     scroll-margin-top: 80px;
 }
