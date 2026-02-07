@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+section, div[id] {
+    scroll-margin-top: 80px;
+}
 *, *::before, *::after{
     padding: 0;
     margin: 0;
