@@ -235,6 +235,7 @@ button:hover{
     justify-content: space-between;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     will-change: transform;
+    backdrop-filter: blur(10px);
 }
 .card:hover{
     transform: translateY(-10px);
