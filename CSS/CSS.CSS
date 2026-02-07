@@ -29,7 +29,8 @@ nav{
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-
+    position: relative;
+    z-index: 100;
 }
 .logo{
     color: white;
