@@ -382,3 +382,16 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
 }
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #d9004d;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 1000;
+}
+.skip-link:focus {
+    top: 0;
+}
