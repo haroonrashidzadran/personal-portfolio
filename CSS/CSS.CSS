@@ -141,7 +141,9 @@ h4{
 .about img{
     height: auto;
     width: 430px;
-    
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 .about-text{
     width: 550px;
