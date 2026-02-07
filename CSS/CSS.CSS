@@ -74,6 +74,10 @@ nav ul li a:focus{
 .btn:hover{
     transform: scale(1.2);
 }
+.btn:focus-visible{
+    outline: 3px solid #d9004d;
+    outline-offset: 3px;
+}
 .content{
     position: absolute;
     top: 50%;
