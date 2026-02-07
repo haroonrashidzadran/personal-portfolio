@@ -5,19 +5,17 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 /* Fix for Font Awesome icons */
-.fa, .fas, .far, .fal, .fab {
+i[class^="fa"] {
     font-family: 'Font Awesome 6 Free', 'Font Awesome 6 Brands' !important;
-    font-weight: 900;
-}
-.fab {
-    font-family: 'Font Awesome 6 Brands' !important;
-    font-weight: 400;
+    font-style: normal;
 }
 .hero{
     height: 100vh;
