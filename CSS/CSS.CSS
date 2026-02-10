@@ -105,7 +105,7 @@ nav ul li a:focus{
     transform: scale(1.2);
 }
 .btn:focus-visible{
-    outline: 3px solid #d9004d;
+    outline: 3px solid var(--primary-color);
     outline-offset: 3px;
 }
 .content{
