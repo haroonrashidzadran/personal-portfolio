@@ -28,13 +28,14 @@ i[class^="fa"] {
     font-family: 'Font Awesome 6 Free', 'Font Awesome 6 Brands' !important;
     font-style: normal;
 }
-.hero{
+.hero {
     height: 100vh;
     min-height: 600px;
     width: 100%;
     background-image: url(../images/1.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 nav{
     display: flex;
