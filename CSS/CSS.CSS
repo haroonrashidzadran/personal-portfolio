@@ -76,18 +76,18 @@ nav ul li{
     padding: 10px 25px;
 }
 nav ul li a{
-    color: white;
+    color: var(--text-white);
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    color: #d9004d;
-    transition: .4s;
+    color: var(--primary-color);
+    transition: var(--transition);
 }
 nav ul li a:focus{
-    color: #d9004d;
-    outline: 2px solid #d9004d;
+    color: var(--primary-color);
+    outline: 2px solid var(--primary-color);
     outline-offset: 4px;
 }
 .btn{
