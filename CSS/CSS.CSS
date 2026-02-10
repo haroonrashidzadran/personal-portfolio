@@ -208,19 +208,19 @@ h4{
     margin-bottom: 45px;
 }
 button{
-    background-color: #d9004d;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-white);
     text-decoration: none;
     font-weight: bold;
     padding: 13px 30px;
-    border-radius: 30px;
+    border-radius: var(--border-radius);
     border: 2px solid transparent;
-    transition: .4s;
+    transition: var(--transition);
     cursor: pointer;
 }
 button:hover{
     background-color: transparent;
-    border: 2px solid #d9004d;
+    border: 2px solid var(--primary-color);
     cursor: pointer;
 }
 /* services section */
