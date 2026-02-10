@@ -231,7 +231,7 @@ button:hover{
 
 }
 .title h2{
-   color: white;
+   color: var(--text-white);
    font-size: 75px;
    width: 1130px;
    max-width: 95%;
