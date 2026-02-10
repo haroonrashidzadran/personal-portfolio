@@ -251,7 +251,7 @@ button:hover{
     width: 335px;
     padding: 20px 35px;
     margin: 15px;
-    background: #191919;
+    background: var(--bg-dark);
     border-radius: 20px;
     position: relative;
     overflow: hidden;
