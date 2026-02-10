@@ -272,10 +272,10 @@ button:hover{
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: #d9004d;
+    color: var(--primary-color);
 }
  h5{
-    color: white;
+    color: var(--text-white);
     font-size: 23px;
     margin-bottom: 15px;
 }
