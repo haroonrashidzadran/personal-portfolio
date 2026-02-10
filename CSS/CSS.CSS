@@ -389,7 +389,7 @@ footer p:nth-child(2){
 }
 .end{
     position: absolute;
-    color: #d9004d;
+    color: var(--primary-color);
     bottom: 35px;
     font-size: 14px;
 }
