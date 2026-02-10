@@ -397,8 +397,8 @@ footer p:nth-child(2){
     position: absolute;
     top: -40px;
     left: 0;
-    background: #d9004d;
-    color: white;
+    background: var(--primary-color);
+    color: var(--text-white);
     padding: 8px;
     text-decoration: none;
     z-index: 1000;
