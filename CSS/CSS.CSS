@@ -319,7 +319,7 @@ button:hover{
     justify-content: center;
 }
 .contact-me p{
-    color: white;
+    color: var(--text-white);
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
@@ -327,17 +327,17 @@ button:hover{
     max-width: 800px;
 }
 .contact-me .button-two{
-    background-color: #d9004d;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-white);
     text-decoration: none;
     font-weight: bold;
     padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
 }
 .contact-me .button-two:hover{
     background: transparent;
-    border: 2px solid #d9004d;
+    border: 2px solid var(--primary-color);
     cursor: pointer;
 }
 /* Footer */
