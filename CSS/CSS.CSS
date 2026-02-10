@@ -406,6 +406,48 @@ footer p:nth-child(2){
 .skip-link:focus {
     top: 0;
 }
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .about img {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .about-text {
+        width: 100%;
+    }
+    
+    .about-text h2 {
+        font-size: 50px;
+    }
+    
+    .title h2 {
+        font-size: 50px;
+    }
+    
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
