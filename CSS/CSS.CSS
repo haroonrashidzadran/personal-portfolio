@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #d9004d;
+    --bg-dark: #191919;
+    --bg-darker: #101010;
+    --text-light: #fcfc;
+    --text-white: white;
+    --border-radius: 30px;
+    --transition: 0.4s;
+}
+
 html{
     scroll-behavior: smooth;
 }
