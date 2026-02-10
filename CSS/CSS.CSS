@@ -225,7 +225,7 @@ button:hover{
 }
 /* services section */
 .service{
-    background: #101010;
+    background: var(--bg-darker);
     width: 100%;
     padding: 100px 0px;
 
