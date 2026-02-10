@@ -115,19 +115,19 @@ nav ul li a:focus{
     transform: translateY(-50%);
 }
 h1{
-    color: white;
+    color: var(--text-white);
     margin: 20px 0px 20px;
     font-size: 75px;
     letter-spacing: 2px;
 }
 h3{
-    color: white;
+    color: var(--text-white);
     font-size: 25px;
     margin-bottom: 50px;
 
 }
 h4{
-    color: #fcfc;
+    color: var(--text-light);
     letter-spacing: 2px;
     font-size: 20px;
 
