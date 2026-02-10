@@ -286,7 +286,7 @@ button:hover{
     justify-content: space-between;
 }
 .pra p{
-    color: #fcfc;
+    color: var(--text-light);
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
