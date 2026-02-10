@@ -58,17 +58,14 @@ nav{
     z-index: 100;
 }
 .logo{
-    color: white;
+    color: var(--text-white);
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-.logo:hover{
-    transform: scale(1.05);
-}
 span{
-    color: #d9004d;
+    color: var(--primary-color);
 }
 nav ul li{
     list-style-type: none;
