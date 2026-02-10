@@ -12,12 +12,12 @@ html{
     scroll-behavior: smooth;
 }
 ::selection {
-    background: #d9004d;
-    color: white;
+    background: var(--primary-color);
+    color: var(--text-white);
 }
 ::-moz-selection {
-    background: #d9004d;
-    color: white;
+    background: var(--primary-color);
+    color: var(--text-white);
 }
 section, div[id] {
     scroll-margin-top: 80px;
