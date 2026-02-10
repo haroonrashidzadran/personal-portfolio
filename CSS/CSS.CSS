@@ -187,21 +187,21 @@ h4{
 
 }
 .about-text h2{
-    color: white;
+    color: var(--text-white);
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
 
 }
 .about-text h5{
-    color: white;
+    color: var(--text-white);
     letter-spacing: 2px;
     font-size: 25px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
 .about-text p{
-    color: #fcfc;
+    color: var(--text-light);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
