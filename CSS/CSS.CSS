@@ -91,14 +91,14 @@ nav ul li a:focus{
     outline-offset: 4px;
 }
 .btn{
-    background-color: #d9004d;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-white);
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
     padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
+    border-radius: var(--border-radius);
+    transition: transform var(--transition);
     user-select: none;
 }
 .btn:hover{
