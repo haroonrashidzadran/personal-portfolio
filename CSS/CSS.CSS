@@ -294,18 +294,18 @@ button:hover{
     overflow-wrap: break-word;
 }
 .card .button{
-    background-color: #d9004d;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-white);
     text-decoration: none;
     font-weight: bold;
     padding: 9px 22px;
-    border-radius: 30px;
-    transition: .4s;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
     box-shadow: 0 4px 15px rgba(217, 0, 77, 0.3);
 }
 .card .button:hover{
     background: transparent;
-    border: 2px solid #d9004d;
+    border: 2px solid var(--primary-color);
     cursor: pointer;
 }
 /* Contact me */
