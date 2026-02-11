@@ -1,4 +1,4 @@
-# Personal Portfolio - HRZ DEV
+# Personal Portfolio - HRZ DEV 🦅
 
 A modern, responsive personal portfolio website showcasing full-stack web development skills and services.
 
