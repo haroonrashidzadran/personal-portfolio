@@ -1,0 +1,5 @@
+# Robots.txt for HRZ DEV Portfolio
+User-agent: *
+Allow: /
+
+Sitemap: https://hrzdev.com/sitemap.xml
