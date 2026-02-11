@@ -712,6 +712,87 @@ footer p:nth-child(2){
     footer p:nth-child(2) {
         font-size: 14px;
     }
+    
+    /* Touch-friendly improvements */
+    button, .btn, .card .button, .contact-me .button-two {
+        min-height: 48px;
+        min-width: 48px;
+    }
+    
+    nav ul li a {
+        padding: 15px 20px;
+        display: block;
+    }
+    
+    .card {
+        min-height: 380px;
+        padding: 25px;
+    }
+    
+    .social a {
+        min-width: 48px;
+        min-height: 48px;
+    }
+}
+
+/* Landscape orientation on mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        min-height: 100vh;
+    }
+    
+    .content {
+        top: 45%;
+    }
+    
+    h1 {
+        font-size: 32px;
+        margin: 10px 0;
+    }
+    
+    h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../images/1.jpg);
+    }
+}
+
+/* Safe area insets for notched phones */
+@supports (padding: env(safe-area-inset-bottom)) {
+    footer {
+        padding-bottom: calc(60px + env(safe-area-inset-bottom));
+    }
+    
+    .scroll-top {
+        bottom: calc(30px + env(safe-area-inset-bottom));
+        right: calc(30px + env(safe-area-inset-right));
+    }
+}
+
+/* Print styles */
+@media print {
+    nav, .scroll-top, .newsletter {
+        display: none;
+    }
+    
+    .hero {
+        height: auto;
+        min-height: auto;
+        padding: 50px 0;
+        background: none;
+        color: black;
+    }
+    
+    body {
+        color: black;
+        background: white;
+    }
 }
 
 /* Animation styles */
