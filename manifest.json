@@ -1,15 +1,21 @@
 {
   "name": "HRZ DEV - Full Stack Web Developer Portfolio",
   "short_name": "HRZ DEV",
-  "description": "Professional portfolio showcasing web development services",
+  "description": "Professional portfolio of Haroon Rashid Zadran - Full Stack Web Developer specializing in web applications, database development, and mobile apps.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#191919",
-  "theme_color": "#d9004d",
+  "theme_color": "#d9004f",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "images/22.JPG",
       "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/22.JPG",
+      "sizes": "512x512",
       "type": "image/jpeg"
     }
   ]
