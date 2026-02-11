@@ -66,7 +66,7 @@ The website is fully responsive and optimized for:
 - **Brand**: HRZ DEV
 - **Focus**: Full Stack Web Development
 - **Website**: https://hrzdev.com
-- **Email**: haroon@hrzdev.com
+- **Email**: contact@hrzdev.com
 
 ## Social Links
 
