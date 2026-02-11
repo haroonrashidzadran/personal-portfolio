@@ -72,4 +72,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ by HRZ DEV**
+**Built with ❤️ by HRZ DEV** 🦅
