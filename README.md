@@ -65,6 +65,16 @@ The website is fully responsive and optimized for:
 - **Developer**: Haroon Rashid Zadran
 - **Brand**: HRZ DEV
 - **Focus**: Full Stack Web Development
+- **Website**: https://hrzdev.com
+- **Email**: haroon@hrzdev.com
+
+## Social Links
+
+- [Facebook](https://facebook.com/hrzdev)
+- [YouTube](https://youtube.com/@hrzdev)
+- [Instagram](https://instagram.com/hrzdev)
+- [LinkedIn](https://linkedin.com/in/haroonrashidzadran)
+- [GitHub](https://github.com/haroonrashidzadran)
 
 ## 📄 License
 
