@@ -1,6 +1,25 @@
 // Dynamic year for copyright
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// Mobile Navigation Toggle
+const navToggle = document.querySelector('.nav-toggle');
+const navMenu = document.querySelector('nav ul');
+
+if (navToggle && navMenu) {
+    navToggle.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+    });
+}
+
+// Close mobile menu when clicking on a link
+document.querySelectorAll('nav ul li a').forEach(link => {
+    link.addEventListener('click', function() {
+        if (window.innerWidth <= 768) {
+            document.querySelector('nav ul').classList.remove('active');
+        }
+    });
+});
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

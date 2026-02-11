@@ -443,6 +443,27 @@ footer p:nth-child(2){
 .skip-link:focus {
     top: 0;
 }
+
+/* Mobile Navigation Toggle */
+.nav-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    color: var(--text-white);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        right: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
 @media (max-width: 768px) {
     .hero {
         background-attachment: scroll;
@@ -482,6 +503,214 @@ footer p:nth-child(2){
     .card {
         width: 90%;
         max-width: 400px;
+    }
+    
+    /* Mobile Navigation */
+    nav {
+        padding: 15px 5%;
+        flex-wrap: wrap;
+    }
+    
+    nav ul {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: rgba(16, 16, 16, 0.98);
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    nav ul.active {
+        display: block;
+    }
+    
+    nav ul li {
+        display: block;
+        padding: 12px 0;
+    }
+    
+    .btn {
+        display: none;
+    }
+    
+    .logo {
+        font-size: 28px;
+    }
+    
+    h1 {
+        font-size: 42px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    h3 {
+        font-size: 20px;
+        padding: 0 5%;
+    }
+    
+    h4 {
+        font-size: 18px;
+        padding: 0 5%;
+    }
+    
+    .content {
+        left: 0;
+        right: 0;
+        padding: 0 5%;
+        top: 50%;
+    }
+    
+    .about {
+        padding: 60px 5%;
+    }
+    
+    .about-text h2 {
+        font-size: 42px;
+    }
+    
+    .about-text h5 {
+        font-size: 20px;
+    }
+    
+    .service, .skills {
+        padding: 60px 5%;
+    }
+    
+    .title h2 {
+        font-size: 42px;
+    }
+    
+    .contact-me {
+        padding: 40px 5%;
+        height: auto;
+        min-height: 250px;
+    }
+    
+    .contact-me p {
+        font-size: 24px;
+    }
+    
+    footer {
+        padding: 40px 5% 60px;
+        min-height: auto;
+    }
+    
+    footer p:nth-child(1) {
+        font-size: 24px;
+    }
+    
+    footer p:nth-child(2) {
+        font-size: 15px;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .social a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        margin: 15px 8px;
+    }
+    
+    .newsletter form {
+        width: 100%;
+    }
+    
+    .newsletter form input:first-child {
+        width: 100%;
+        padding-right: 15px;
+    }
+    
+    .newsletter form input:last-child {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        right: 0;
+    }
+}
+
+/* Tablet Responsive */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        padding: 20px 5%;
+    }
+    
+    nav ul li {
+        padding: 10px 15px;
+    }
+    
+    .logo {
+        font-size: 30px;
+    }
+    
+    .content {
+        left: 5%;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    .main {
+        width: 95%;
+    }
+    
+    .about-text {
+        width: 480px;
+    }
+    
+    .card {
+        width: 300px;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 36px;
+        letter-spacing: 1px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    h4 {
+        font-size: 16px;
+    }
+    
+    .about-text h2 {
+        font-size: 36px;
+    }
+    
+    .title h2 {
+        font-size: 36px;
+    }
+    
+    .contact-me p {
+        font-size: 20px;
+    }
+    
+    .stat-number {
+        font-size: 32px;
+    }
+    
+    .stat-label {
+        font-size: 14px;
+    }
+    
+    .stats-container {
+        gap: 25px;
+    }
+    
+    footer p:nth-child(1) {
+        font-size: 22px;
+    }
+    
+    footer p:nth-child(2) {
+        font-size: 14px;
     }
 }
 
