@@ -53,12 +53,15 @@ portfolio/
 
 3. Open `Index.html` in your web browser or use a live server.
 
+##  Demo: https://haroonrashidzadran.github.io/personal-portfolio/
+
 ## 📱 Responsive Design
 
 The website is fully responsive and optimized for:
 - Desktop computers
 - Tablets
 - Mobile devices
+
 
 ## 🤝 Connect With Me
 
