@@ -71,6 +71,7 @@ nav{
     background: rgba(16, 16, 16, 0.95);
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
 .logo{
     color: var(--text-white);
