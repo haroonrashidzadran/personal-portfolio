@@ -117,6 +117,7 @@ if (contactBtn) {
 // Add loading animation
 window.addEventListener('load', function() {
     document.body.classList.add('loaded');
+    console.log('Portfolio loaded successfully');
 });
 
 // Scroll to top button
