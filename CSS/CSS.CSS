@@ -8,6 +8,16 @@
     --transition: 0.4s;
 }
 
+/* Dark mode preference - currently supporting dark only */
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-dark: #f5f5f5;
+        --bg-darker: #e0e0e0;
+        --text-light: #1a1a1a;
+        --text-white: #1a1a1a;
+    }
+}
+
 html{
     scroll-behavior: smooth;
 }
