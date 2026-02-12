@@ -164,13 +164,17 @@ const statsObserver = new IntersectionObserver(function(entries) {
         if (entry.isIntersecting) {
             const statNumbers = entry.target.querySelectorAll('.stat-number');
             statNumbers.forEach(stat => {
-                const target = parseInt(stat.getAttribute('data-target'));
-                animateCounter(stat, target);
+                // Prevent double animation
+                if (!stat.dataset.animated) {
+                    stat.dataset.animated = 'true';
+                    const target = parseInt(stat.getAttribute('data-target'));
+                    animateCounter(stat, target);
+                }
             });
             statsObserver.unobserve(entry.target);
         }
     });
-}, { threshold: 0.5 });
+}, { threshold: 0.5, rootMargin: '0px' });
 
 const statsSection = document.querySelector('.stats');
 if (statsSection) {
