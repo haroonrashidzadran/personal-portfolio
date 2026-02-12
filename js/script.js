@@ -44,7 +44,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Newsletter form handling with better UX
+// Newsletter form handling with better UX and accessibility
 const newsletterForm = document.querySelector('form[name="newsletter-form"]');
 if (newsletterForm) {
     newsletterForm.addEventListener('submit', function(e) {
@@ -52,25 +52,49 @@ if (newsletterForm) {
         const emailInput = document.getElementById('mail');
         const email = emailInput.value.trim();
         const submitBtn = document.getElementById('submit-btn');
+        const originalBtnText = submitBtn.textContent;
         
+        // Email validation with better feedback
         if (email && email.includes('@') && email.includes('.')) {
-            // Success feedback
-            submitBtn.textContent = 'Subscribed!';
+            // Success feedback with screen reader announcement
+            submitBtn.textContent = '✓ Subscribed!';
+            submitBtn.setAttribute('aria-label', 'Successfully subscribed to newsletter');
             submitBtn.style.backgroundColor = '#28a745';
             submitBtn.style.borderColor = '#28a745';
             emailInput.value = '';
+            emailInput.removeAttribute('aria-invalid');
+            
+            // Announce success to screen readers
+            const announcement = document.createElement('div');
+            announcement.setAttribute('role', 'status');
+            announcement.setAttribute('aria-live', 'polite');
+            announcement.className = 'sr-only';
+            announcement.textContent = 'Successfully subscribed to newsletter!';
+            document.body.appendChild(announcement);
+            setTimeout(() => announcement.remove(), 3000);
             
             // Reset button after 3 seconds
             setTimeout(() => {
-                submitBtn.textContent = 'Subscribe';
+                submitBtn.textContent = originalBtnText;
+                submitBtn.removeAttribute('aria-label');
                 submitBtn.style.backgroundColor = '';
                 submitBtn.style.borderColor = '';
             }, 3000);
         } else {
-            // Error feedback
+            // Error feedback with accessibility
             emailInput.style.borderColor = '#dc3545';
+            emailInput.setAttribute('aria-invalid', 'true');
+            emailInput.setAttribute('aria-describedby', 'email-error');
+            submitBtn.setAttribute('aria-label', 'Invalid email, please try again');
+            
+            // Focus on input for accessibility
+            emailInput.focus();
+            
             setTimeout(() => {
                 emailInput.style.borderColor = '';
+                emailInput.removeAttribute('aria-invalid');
+                emailInput.removeAttribute('aria-describedby');
+                submitBtn.removeAttribute('aria-label');
             }, 2000);
         }
     });
