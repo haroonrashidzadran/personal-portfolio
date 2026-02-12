@@ -383,6 +383,11 @@ button:focus-visible{
     flex-direction: column;
     justify-content: center;
 }
+
+/* Add transition to contact section */
+.contact-me{
+    transition: background-color 0.3s ease;
+}
 .contact-me p{
     color: var(--text-white);
     font-size: 30px;
