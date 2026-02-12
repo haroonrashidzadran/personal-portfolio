@@ -1,5 +1,12 @@
 // Dynamic year for copyright
-document.getElementById('year').textContent = new Date().getFullYear();
+try {
+    const yearElement = document.getElementById('year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+} catch (error) {
+    console.warn('Year element not found:', error);
+}
 
 // Mobile Navigation Toggle
 const navToggle = document.querySelector('.nav-toggle');
