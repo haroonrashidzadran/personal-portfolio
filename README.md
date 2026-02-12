@@ -93,8 +93,8 @@ portfolio/
 
 - **Brand:** HRZ DEV
 - **Specialization:** Web applications, database development, and cross-platform mobile solutions
-- **Website:** [https://hrzdev.com](https://hrzdev.com)
-- **Email:** [contact@hrzdev.com](mailto:contact@hrzdev.com)
+- **Website:** [https://hrz-dev.com](https://hrzdev.com)
+- **Email:** [contact@hrz-dev.com](mailto:contact@hrzdev.com)
 
 ---
 
@@ -102,9 +102,9 @@ portfolio/
 
 | Platform | Link |
 |----------|------|
-| Facebook | [hrzdev](https://facebook.com/hrzdev) |
-| YouTube | [@hrzdev](https://youtube.com/@hrzdev) |
-| Instagram | [hrzdev](https://instagram.com/hrzdev) |
+| Facebook | [hrzdev](https://www.facebook.com/haroonrashidzadran) |
+| YouTube | [@hrzdev](#) |
+| Instagram | [hrzdev](https://instagram.com/haroonrashidzadran) |
 | LinkedIn | [haroonrashidzadran](https://linkedin.com/in/haroonrashidzadran) |
 | GitHub | [haroonrashidzadran](https://github.com/haroonrashidzadran) |
 
