@@ -8,13 +8,21 @@ try {
     console.warn('Year element not found:', error);
 }
 
-// Mobile Navigation Toggle
+// Mobile Navigation Toggle with better UX
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('nav ul');
 
 if (navToggle && navMenu) {
     navToggle.addEventListener('click', function() {
+        const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isExpanded);
         navMenu.classList.toggle('active');
+        
+        // Trap focus in mobile menu when open
+        if (navMenu.classList.contains('active')) {
+            const firstLink = navMenu.querySelector('a');
+            if (firstLink) firstLink.focus();
+        }
     });
 }
 
