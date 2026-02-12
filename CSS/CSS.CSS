@@ -229,6 +229,15 @@ button:hover{
     border: 2px solid var(--primary-color);
     cursor: pointer;
 }
+
+button:active{
+    transform: scale(0.98);
+}
+
+button:focus-visible{
+    outline: 3px solid var(--primary-color);
+    outline-offset: 3px;
+}
 /* services section */
 .service{
     background: var(--bg-darker);
