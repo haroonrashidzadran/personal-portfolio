@@ -1,83 +1,114 @@
 # Personal Portfolio - HRZ DEV 🦅
 
-A modern, responsive personal portfolio website showcasing full-stack web development skills and services.
+A modern, responsive personal portfolio website showcasing full-stack web development expertise, services, and professional projects.
 
-## 🚀 Features
+---
 
-- **Responsive Design** - Works seamlessly across all devices
-- **Modern UI/UX** - Clean and professional interface with smooth animations
-- **Interactive Elements** - Hover effects and smooth scrolling
-- **Service Showcase** - Highlighting web development expertise
-- **Contact Integration** - Easy way for clients to get in touch
-- **SEO Optimized** - Meta tags and semantic HTML for better search visibility
-- **Accessibility** - ARIA labels and keyboard navigation support
-- **Performance** - Lazy loading images and optimized CSS
+## ✨ Features
 
-## 🛠️ Technologies Used
+- **Responsive Design** — Seamless experience across desktop, tablet, and mobile devices
+- **Modern UI/UX** — Clean, professional interface with smooth animations and hover effects
+- **Interactive Elements** — Dynamic interactions including smooth scrolling and animated counters
+- **Service Showcase** — Professional presentation of web development, database, and mobile development services
+- **SEO Optimized** — Comprehensive meta tags, semantic HTML, and Open Graph integration
+- **Accessibility** — WCAG-compliant with ARIA labels, keyboard navigation, and screen reader support
+- **Performance** — Optimized loading with lazy loading, image prefetch, and font preloading
 
-- **HTML5** - Semantic markup structure
-- **CSS3** - Modern styling and responsive design
-- **Font Awesome** - Professional icons
-- **Google Fonts** - Typography (Josefin Sans)
+---
 
-## 📋 Services Offered
+## 🛠️ Technologies
 
-- **Web Application Development** - Custom web solutions
-- **Database Development** - Efficient data management
-- **Mobile Application Development** - Cross-platform mobile apps
+| Category | Technologies |
+|----------|--------------|
+| **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
+| **Typography** | Google Fonts - Josefin Sans |
+| **Icons** | Font Awesome 6 |
+| **Deployment** | GitHub Pages |
 
-## 🎯 Project Structure
+---
+
+## 📋 Services
+
+- **Web Application Development** — Custom, responsive web solutions built with modern best practices
+- **Database Development** — Efficient, scalable database architecture and optimization
+- **Mobile Application Development** — Cross-platform applications with native performance
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/haroonrashidzadran/personal-portfolio.git
+
+# Navigate to project directory
+cd personal-portfolio
+
+# Open in browser
+# Simply open index.html or use a local server
+```
+
+---
+
+## 🔗 Live Demo
+
+**View Portfolio:** [https://haroonrashidzadran.github.io/personal-portfolio/](https://haroonrashidzadran.github.io/personal-portfolio/)
+
+---
+
+## 📁 Project Structure
 
 ```
 portfolio/
-├── Index.html          # Main HTML file
+├── index.html              # Main HTML document with semantic structure
 ├── CSS/
-│   ├── CSS.CSS        # Main stylesheet
-│   └── all.css        # Font Awesome styles
+│   ├── CSS.CSS            # Primary stylesheet with custom design
+│   └── all.css            # Font Awesome icon library
 ├── images/
-│   └── 22.JPG         # Profile image
-└── README.md          # Project documentation
+│   ├── 22.JPG            # Profile photo
+│   └── 1.jpg             # Hero background image
+├── js/
+│   └── script.js         # Interactive functionality and animations
+├── webfonts/              # Font Awesome web fonts
+├── manifest.json          # PWA manifest
+├── robots.txt             # Search engine directives
+└── sitemap.xml            # XML sitemap
 ```
 
-## 🚀 Getting Started
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/haroonrashidzadran/personal-portfolio.git
-   ```
+## 📱 Responsive Breakpoints
 
-2. Navigate to the project directory:
-   ```bash
-   cd personal-portfolio
-   ```
+| Device | Breakpoint | Target |
+|--------|------------|--------|
+| Mobile | ≤ 480px | Extra small devices |
+| Tablet | 481px - 1024px | Medium devices |
+| Desktop | > 1024px | Large screens |
 
-3. Open `Index.html` in your web browser or use a live server.
+---
 
-##  Demo: https://haroonrashidzadran.github.io/personal-portfolio/
+## 👨‍💻 About the Developer
 
-## 📱 Responsive Design
+**Haroon Rashid Zadran** — *Full Stack Web Developer*
 
-The website is fully responsive and optimized for:
-- Desktop computers
-- Tablets
-- Mobile devices
+- **Brand:** HRZ DEV
+- **Specialization:** Web applications, database development, and cross-platform mobile solutions
+- **Website:** [https://hrzdev.com](https://hrzdev.com)
+- **Email:** [contact@hrzdev.com](mailto:contact@hrzdev.com)
 
+---
 
-## 🤝 Connect With Me
+## 🌐 Connect & Social
 
-- **Developer**: Haroon Rashid Zadran
-- **Brand**: HRZ DEV
-- **Focus**: Full Stack Web Development
-- **Website**: https://hrzdev.com
-- **Email**: contact@hrzdev.com
+| Platform | Link |
+|----------|------|
+| Facebook | [hrzdev](https://facebook.com/hrzdev) |
+| YouTube | [@hrzdev](https://youtube.com/@hrzdev) |
+| Instagram | [hrzdev](https://instagram.com/hrzdev) |
+| LinkedIn | [haroonrashidzadran](https://linkedin.com/in/haroonrashidzadran) |
+| GitHub | [haroonrashidzadran](https://github.com/haroonrashidzadran) |
 
-## Social Links
-
-- [Facebook](https://facebook.com/hrzdev)
-- [YouTube](https://youtube.com/@hrzdev)
-- [Instagram](https://instagram.com/hrzdev)
-- [LinkedIn](https://linkedin.com/in/haroonrashidzadran)
-- [GitHub](https://github.com/haroonrashidzadran)
+---
 
 ## 📄 License
 
@@ -86,3 +117,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Built with ❤️ by HRZ DEV** 🦅
+
+*Crafting digital experiences that make a difference.*
