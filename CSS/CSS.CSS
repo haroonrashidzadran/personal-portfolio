@@ -322,6 +322,12 @@ button:focus-visible{
     transform: translateY(-10px);
     box-shadow: 0 10px 30px rgba(217, 0, 77, 0.3);
 }
+
+/* Add focus-within for better keyboard navigation */
+.card:focus-within{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(217, 0, 77, 0.3);
+}
 .card i{
     font-size: 50px;
     display: block;
