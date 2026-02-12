@@ -85,6 +85,8 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
+    cursor: pointer;
+    transition: color var(--transition);
 }
 nav ul li a:hover{
     color: var(--primary-color);
