@@ -35,7 +35,7 @@ document.querySelectorAll('nav ul li a').forEach(link => {
     });
 });
 
-// Smooth scrolling for navigation links
+// Smooth scrolling for navigation links with better UX
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         const href = this.getAttribute('href');
@@ -43,10 +43,18 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             e.preventDefault();
             const target = document.querySelector(href);
             if (target) {
+                // Close mobile menu if open
+                if (window.innerWidth <= 768) {
+                    document.querySelector('nav ul').classList.remove('active');
+                }
+                
                 target.scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
                 });
+                
+                // Update URL without jumping
+                history.pushState(null, null, href);
             }
         }
     });
